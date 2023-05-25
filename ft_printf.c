@@ -6,7 +6,7 @@
 /*   By: mleonet <mleonet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/23 14:27:45 by mleonet           #+#    #+#             */
-/*   Updated: 2023/05/23 18:07:06 by mleonet          ###   ########.fr       */
+/*   Updated: 2023/05/25 17:58:44 by mleonet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,8 @@ size_t	ft_putchar(char c)
 
 char	ft_check_is_in(char c)
 {
-	if (c == 'c' || c == 's' || c == 'd' || c == 'i')
-		return (1);
-	else if (c == 'x' || c == 'X' || c == 'u' || c == 'p' || c == '%')
+	if (c == 'c' || c == 's' || c == 'd' || c == 'i' || c == 'x'
+		|| c == 'X' || c == 'u' || c == 'p' || c == '%')
 		return (1);
 	return (0);
 }
